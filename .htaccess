@@ -1,0 +1,13 @@
+RewriteEngine On 
+##### 
+RewriteRule ^app.js$ js/app.js [NC,L] 
+RewriteRule ^validator.js$ js/validator.js [NC,L] 
+
+##### 
+RewriteRule ^$ views/index.php [NC,L] 
+RewriteRule ^signup$ views/signup.php [NC,L] 
+RewriteRule ^login$ views/login.php [NC,L]
+RewriteRule ^customers$ views/customers.php [NC,L]
+RewriteRule ^partners$ views/partners.php [NC,L]
+RewriteRule ^employees$ views/employees.php [NC,L]
+RewriteRule ^admin$ views/admin.php [NC,L]
